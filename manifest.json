@@ -1,0 +1,14 @@
+{
+  "name": "Simple Switchy",
+  "version": "0.1",
+  "description": "Simple Switchy",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "proxy"
+  ],
+  "manifest_version": 1
+}
