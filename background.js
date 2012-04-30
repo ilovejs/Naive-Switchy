@@ -2,8 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var config = {
         mode: "pac_script",
         pacScript: {
-            url: "https://d2o4ssz3p0edhu.cloudfront.net"
-            // url: "https://pac.bozhu.me"
+            url: "https://c14993794.ssl.cf2.rackcdn.com/pac.pac"
       	}
     };
 
