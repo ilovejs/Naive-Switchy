@@ -1,7 +1,7 @@
 {
-  "name": "Simple Switchy",
+  "name": "Naive Switchy",
   "version": "0.1",
-  "description": "Simple Switchy",
+  "description": "Naive Switchy",
   "background": {
     "scripts": [
       "background.js"
