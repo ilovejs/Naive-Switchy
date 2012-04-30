@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var config = {
         mode: "pac_script",
         pacScript: {
-            url: "https://c14993794.ssl.cf2.rackcdn.com/pac.pac"
+            url: "https://c14993931.ssl.cf2.rackcdn.com/config.pac"
       	}
     };
 
