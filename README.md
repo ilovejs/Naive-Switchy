@@ -1,5 +1,5 @@
 # Naive Switchy
-The simplest extension for bypassing the Internet censorship in P.R.China.
+The simplest Chrome extension for bypassing the Internet censorship in P.R.China.
 
 最傻瓜的Chrome翻墙插件，会自动使用最新的代理自动配置PAC文件，无需其它的浏览器设置
 
