@@ -10,7 +10,7 @@ The simplest extension for bypassing the Internet censorship in P.R.China.
 
 1. 将本地Socks5代理软件的端口设置为7070（此为MyEnTunnel默认端口）。此时可以利用IE或Firefox测试本地代理127.0.0.1:7070是否已经生效
 
-2. 在Chrome上安装本插件，可以直接访问[Chrome Web Store](https://chrome.google.com/webstore/detail/dhbppccihanpobkkheolfikgkigfgflh)下载安装
+2. 在Chrome上安装本插件，可以直接访问[Chrome Web Store](https://chrome.google.com/webstore/detail/dhbppccihanpobkkheolfikgkigfgflh)或[猛击这里](https://github.com/downloads/zhuzhuor/Naive-Switchy/Naive-Switchy-v1.1.crx)下载并安装
 
 3. 即可顺利浏览海外网站，没有第三步 XD
 
