@@ -1,5 +1,5 @@
-chrome.proxy.onProxyError.addListener(function (details) {
-    console.log('Niave onProxyError [' + details.error + '][' + details.details + ']');
+chrome.proxy.onProxyError.addListener(function(details) {
+    console.log('Niave onProxyError [' + details.error + '](' + details.details + ')');
 
     if (details.fatal)
         title = 'Fatal Error! ' + details.error;
