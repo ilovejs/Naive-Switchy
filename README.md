@@ -18,7 +18,7 @@ The simplest Chrome extension for bypassing the Internet censorship in P.R.China
 
 此插件旨为简化浏览器配置流程，如需更多可定制代理功能请尝试 [Proxy Switchy](https://chrome.google.com/webstore/detail/caehdcpeofiiigpdhbabniblemipncjj) 或 [Proxy SwitchySharp](https://chrome.google.com/webstore/detail/dpplabbmogkhghncfbfdeeokoefdjegm) 插件
 
-### LICENSE
+## LICENSE
 
 This project is under MIT license.
 
