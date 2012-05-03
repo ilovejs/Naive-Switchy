@@ -12,6 +12,7 @@
     ]
   },
   "permissions": [
-    "proxy"
+    "proxy",
+    "https://c14993931.ssl.cf2.rackcdn.com/"
   ]
 }
