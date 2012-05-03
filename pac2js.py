@@ -4,7 +4,7 @@ with open('../Naive-Switchy-PAC/proxy.pac', 'r') as f:
     content = f.read()
 
 assert "'" not in content
-content = content.rstrip('\r\n')
+content = content.strip('\r\n')
 assert "\n" not in content
 
 content = "var naive_pac_data = '" + content + "';"

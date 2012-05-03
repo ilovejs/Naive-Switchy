@@ -8,11 +8,13 @@
   "background": {
     "scripts": [
       "pac_data.js",
-      "background.js"
+      "main.js",
+      "error_handler.js"
     ]
   },
   "permissions": [
     "proxy",
+    "notifications",
     "https://c14993931.ssl.cf2.rackcdn.com/"
   ]
 }
