@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     var config = {
-        mode: "pac_script",
+        mode: 'pac_script',
         pacScript: {
-            url: "https://c14993931.ssl.cf2.rackcdn.com/proxy.pac"
+            data: pac_data
+            //url: 'file:///Users/b8zhu/Desktop/Naive-Switchy-PAC/proxy.pac'
       	}
     };
 

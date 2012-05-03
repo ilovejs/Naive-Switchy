@@ -7,6 +7,7 @@
             "128": "icons/icon128.jpg" },
   "background": {
     "scripts": [
+      "pac_data.js",
       "background.js"
     ]
   },
