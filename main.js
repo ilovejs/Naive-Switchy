@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
             data: pac_data
       	}
     };
-
     chrome.proxy.settings.set(
         {
             value: config, 
@@ -35,11 +34,27 @@ document.addEventListener("DOMContentLoaded", function() {
                     localStorage.naive_pac_data = xhr.responseText;
                     localStorage.naive_last_update = my_date.getTime();
                     console.log('updated localStorage.naive_pac_data');
+
+                    // change to the updated pac file instantly
+                    var new_config = {
+                        mode: 'pac_script',
+                        pacScript: {
+                            data: localStorage.naive_pac_data
+                        }
+                    };
+                    chrome.proxy.settings.set(
+                        {
+                            value: new_config,
+                            scope: 'regular'
+                        },
+                        function () {}
+                    );
+                    console.log('using new local.Storage.naive_pac_data now');
                 }
             }
             xhr.send();
         } else {
-            console.log('no need to update localStorage.niave_pac_data now');
+            console.log('no need to update localStorage.naive_pac_data now');
         }
     }
 });

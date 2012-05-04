@@ -1,6 +1,6 @@
 {
   "name": "Naive Switchy",
-  "version": "1.4",
+  "version": "1.5",
   "description": "The simplest Chrome extension for bypassing the Internet censorship in P.R.China.",
   "icons": { "16": "icons/icon16.jpg",
              "48": "icons/icon48.jpg",
