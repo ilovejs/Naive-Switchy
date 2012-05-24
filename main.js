@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
+    var pac_data;
     if (!localStorage.naive_pac_data) {
-        var pac_data = naive_pac_data;
+        pac_data = naive_pac_data;
         console.log('use hard-coded naive_pac_data');
     } else {
-        var pac_data = localStorage.naive_pac_data;
+        pac_data = localStorage.naive_pac_data;
         console.log('use localStorage.naive_pac_data');
     }
 
@@ -18,8 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
             value: config, 
             scope: 'regular'
         },
-    	update_local_pac_data
-    );
+    	update_local_pac_data);
 
     function update_local_pac_data() {
         var my_date = new Date();
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     );
                     console.log('using new local.Storage.naive_pac_data now');
                 }
-            }
+            };
             xhr.send();
         } else {
             console.log('no need to update localStorage.naive_pac_data now');
