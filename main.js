@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     if (!localStorage.naive_pac_data) {
-        pac_data = naive_pac_data;
+        var pac_data = naive_pac_data;
         console.log('use hard-coded naive_pac_data');
     } else {
-        pac_data = localStorage.naive_pac_data;
+        var pac_data = localStorage.naive_pac_data;
         console.log('use localStorage.naive_pac_data');
     }
 
